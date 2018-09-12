@@ -6,9 +6,32 @@ body {
 }
 
 h1 {
-  font-size: 13rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
 
 img {
   height: 10rem;
+  margin-bottom: 1rem;
 }
+
+li {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+.instructions {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.your-character {
+  font-size: 2rem;
+  margin-bottom: .5rem;
+  
+}
+

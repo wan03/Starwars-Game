@@ -14,13 +14,20 @@
     <img class="character obi" src="assets/images/obiwan-920x584.png" alt="Obi Wan Kenobi">
     <img class="character ani" src="assets/images/anakin-skywalker.jpg" alt="Anakin Skywalker">
     <img class="character ty" src="assets/images/darth-tyranus.png" alt="Darth Tyranus">
-    <img class="character ml" src="assets/images/darth-maul.jpeg" alt="Darth Maul">
+    <img class="character ml" src="assets/images/darth-maul.jpeg" alt="Darth Maul">    
+    <ul class="instructions">Welcome to my game! In order to play follow these rules:</ul>
+    <li>Pick your initial character.</li>
+    <li>Once the others move to the enemy sections you can pick one of them to fight.</li>
+    <li>Click the attack button to attack that enemy.</li>
+    <li>If you defeat the enemy you will be able to pick up another one to fight, if you die you lose the game.</li>
   </section>
   <section>
-    <div id="your-character"><h2>My character</h2></div>
-    <div id="fight"></div>
-    <div id="enemy"><h2>My Enemies</h2></div>
-    <button class="attack">Attack</button>
+    <div id="your-character" class="hidden"><h2 class="your-character">My character</h2></div>
+    <div id="fight" class="hidden">Current Fighter</div>
+    <div id="enemy" class="hidden"></div>
+    <div id="dead" class="hidden">Graveyard</div>
+    <button class="attack" class="hidden">Attack</button>
+    <button class="new-game">New Game</button>
   </section>
 
   
